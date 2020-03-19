@@ -26,10 +26,9 @@
             if (r!=null) return r[2]; return '';
         }
 
-        var newVersionCode = 9;
+        var newVersionCode = 12;
         var versionCode = getQueryString("versionCode");
         if (versionCode < newVersionCode) {
-            
             window.open("https://shouji.baidu.com/software/26106269.html");
         } else {
             alert("已经是最新版本");
